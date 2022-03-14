@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+@media (min-width: 100vw) {
+body{
+    background-color: #041b21;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+}
+
+.create{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #6a6ad5;
+}
+
+img{
+    height: 4rem;
+}
+
+.link{
+    height: 6rem;
+}
+
+.or{
+    font-size: 0.8rem;
+    font-weight: 100;
+    color: #6d6464;
+    margin: 5px 0px 15px 0px;
+}
+
+.containerP{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0px 0px 0px;
+}
+
+.containerImgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.5rem;
+    margin: 6px 0px 7px 0px;
+}
+
+.containerOr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerLogin{
+    display: grid;
+    justify-content: center;
+}
+
+.containerBtn{
+    display: flex;
+    justify-content: center;
+}
+
+.g, .f{
+    height: 32px;
+}
+
+.link{
+    height: 44px;
+}
+
+.text{
+    color: white;
+    font-size: 12px;
+    margin: 0px 0px 13px 0px;
+    font-weight: 700;
+}
+
+input{
+    margin: 0px 0px 13px 0px;
+    border: none;
+    background-color: #021216;
+    height: 32px;
+    width: 210px;
+    border-radius: 7px;
+    outline: none;
+    box-shadow: #17171b 0px 0px 0px 1px;
+    color: white;
+}
+
+button{
+    border: none;
+    color: white;
+    font-weight: 700;
+    background-color: #5656c7;
+    height: 30px;
+    width: 120px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+   
+.containerBall{
+    display: flex;
+    justify-content: end;
+    overflow: hidden;
+    position: relative;
+    left: 311px;
+    bottom: -6px;
+}
+.ball{
+    height: 664px;
+    width: 664px;
+    background: linear-gradient(rgb(130, 130, 139), rgb(113, 128, 211));
+    border-radius: 100%;
+}
